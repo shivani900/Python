@@ -290,7 +290,7 @@
 # n=6
 # for i in range(1,n+1):
 #   print("*" * i)
-number=int(input("enter your number"))
-a=10
-for i in range(10,1,-1):
-  print(number*i)
+# number=int(input("enter your number"))
+# a=10
+# for i in range(10,1,-1):
+#   print(number*i)
