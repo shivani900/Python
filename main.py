@@ -294,3 +294,25 @@
 # a=10
 # for i in range(10,1,-1):
 #   print(number*i)
+
+# def find_percentage(marks1,marks2,marks3,marks4,total_marks):
+#   marks = marks1 + marks2 + marks3 + marks4
+#   percentage = (marks/total_marks)*100
+#   return percentage
+
+# print(find_percentage(100,99,95,93,400))
+# Write a program using the function to find the greatest of three numbers.
+# def greatest_number(number1,number2,number3):
+#   greatst_number = 0
+#   if(number1>number2 and number1>number3):
+#     greatest_number = number1
+#   elif(number2>number1 and number2>number3):
+#     greatest_number = number2
+#   else:
+#     greatest_number = number3
+#   return greatest_number
+
+# a=int(input("enter yur number "))
+# b=int(input("enter your number "))
+# c=int(input("enter your number "))
+# print(greatest_number(a,b,c))

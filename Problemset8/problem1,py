@@ -1,0 +1,15 @@
+#Write a program using the function to find the greatest of #three numbers.
+a=int(input("enter your number "))
+b=int(input("enter your number "))
+c=int(input("enter your number "))
+def greatest_number(number1,number2,number3):
+  r=0
+  if(number1>number2 and number1>number3):
+     r = number1
+  elif(number2>number1 and number2>number3):
+    r = number2
+  else:
+    r=number3
+  return r
+
+print(greatest_number(a,b,c))
